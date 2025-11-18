@@ -1,0 +1,12 @@
+# --- Opty Development Compose ---
+services:
+
+  # --- Databases ---
+  mongo:
+    ports:
+      - "27017:27017"
+
+  # --- Services ---
+  socket-backend:
+    ports:
+      - "8080:8080"
